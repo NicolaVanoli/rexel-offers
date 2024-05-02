@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rexel-offers"
+version = "0.1.0"
+description = ""
+authors = ["NicolaVanoli <nicolavanoli96@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rexel_offers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.20.0"
+beautifulsoup4 = "^4.12.3"
+ipykernel = "^6.29.4"
+isort = "^5.13.2"
+jupyter-black = "^0.3.4"
+nbqa = "^1.8.5"
+pylint = "^3.1.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
